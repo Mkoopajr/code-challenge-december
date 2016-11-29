@@ -1,0 +1,19 @@
+{
+  "name": "code-challenge-december",
+  "version": "1.0.0",
+  "description": "Liaison Code Challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mkoopajr/code-challenge-december.git"
+  },
+  "author": "Jacob Morton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mkoopajr/code-challenge-december/issues"
+  },
+  "homepage": "https://github.com/Mkoopajr/code-challenge-december#readme"
+}
