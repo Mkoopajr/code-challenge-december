@@ -2,9 +2,31 @@
 
 <html>
     <head>
+        <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
     </head>
     <body>
-        <p>hello</p>
-        <img src="/img/logo.png">
+        <div class="pure-g content">
+            <div class="pure-u-1-3">
+                <div class="pure-g title">
+                    <div class="pure-u-1-1">
+                        <img src="/img/logo.png"/>
+                    </div>
+                </div>
+                <div class="pure-g searchBar">
+                    <div class="pure-u-1-1">
+                        <form class="pure-form">
+                            <p>USER SEARCH</p>
+                            <input type="text" placeholder="USERNAME" name="user">
+                            <button class="pure-button">GO</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="pure-u-2-3">
+                <div class="results">
+                    <p>Search results go here</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
