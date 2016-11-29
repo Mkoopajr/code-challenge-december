@@ -1,0 +1,33 @@
+.content {
+    height: 960px;
+}
+
+.title {
+    background-color: #f7ce5b;
+}
+
+.center-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    background-color: black;
+    text-align: center;
+}
+
+.search-bar p {
+    color: #f7ce5b;
+}
+
+.title, .search-bar {
+    height: 50%;
+}
+
+.custom-button {
+    position: relative;
+    left: -7px;
+    background-color: #f7ce5b;
+    padding-top: 10px;
+}
