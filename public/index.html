@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app="hawtness">
     <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+        <script src="/app/app.js"></script>
         <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
         <link rel="stylesheet" href="/css/custom.css">
     </head>
-    <body>
+    <body ng-controller="configController">
         <div class="pure-g content">
             <div class="pure-u-1-3">
                 <div class="pure-g title">
@@ -15,10 +17,10 @@
                 </div>
                 <div class="pure-g search-bar">
                     <div class="pure-u-1-1">
-                        <form class="pure-form">
+                        <form class="pure-form" name="search">
                             <p>USER SEARCH</p>
-                            <input type="text" placeholder="USERNAME" name="user">
-                            <button class="pure-button custom-button">GO</button>
+                            <input type="text" placeholder="USERNAME" name="user" ng-model="query.q">
+                            <button class="pure-button custom-button" ng-click="getusers()">GO</button>
                         </form>
                     </div>
                 </div>
