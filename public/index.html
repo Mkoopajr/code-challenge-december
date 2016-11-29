@@ -26,6 +26,9 @@
                 </div>
             </div>
             <div class="pure-u-2-3">
+                <div ng-show="rick.roll">
+                    <iframe width="560" height="315" src={{rick.url}} frameborder="0" allowfullscreen></iframe>
+                </div>
                 <div class="results" ng-repeat="item in users">
                     <p><span class="name-tag">{{$index + 1}}.</span> <b>{{item.data.login}}</b></p>
                     <div class="pure-g">
