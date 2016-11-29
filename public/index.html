@@ -26,8 +26,18 @@
                 </div>
             </div>
             <div class="pure-u-2-3">
-                <div class="results">
-                    <p>Search results go here</p>
+                <div class="results" ng-repeat="item in users">
+                    <p><span class="name-tag">{{$index + 1}}.</span> <b>{{item.data.login}}</b></p>
+                    <div class="pure-g">
+                        <div class="pure-u-1-6">
+                            <img class="avatar" src={{item.data.avatar_url}}"/>
+                        </div>
+                        <div class="pure-u-5-6">
+                            <p>{{item.data.bio}}</p>
+                            <p>{{item.data.location}}</p>
+                            <p>{{item.data.email}}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

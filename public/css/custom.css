@@ -31,3 +31,17 @@
     background-color: #f7ce5b;
     padding-top: 10px;
 }
+
+.results {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.avatar {
+    height: 120px;
+    width: 120px;
+}
+
+.name-tag {
+    color: gray;
+}
