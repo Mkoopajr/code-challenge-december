@@ -1,5 +1,6 @@
-.content {
-    height: 960px;
+.sidebar {
+    position: fixed;
+    height: 100%;
 }
 
 .title {
