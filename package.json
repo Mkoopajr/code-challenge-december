@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mkoopajr/code-challenge-december/issues"
   },
-  "homepage": "https://github.com/Mkoopajr/code-challenge-december#readme"
+  "homepage": "https://github.com/Mkoopajr/code-challenge-december#readme",
+  "dependencies": {
+    "node-static": "^0.7.9"
+  }
 }
